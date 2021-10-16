@@ -1,3 +1,5 @@
+#include "busyBeaver.h"
+
 /*
     Our 3-state 2-symbol Transition table:(2*3 matrix)
     +---------+---------+--------+-------+
