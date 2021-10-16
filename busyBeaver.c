@@ -105,8 +105,10 @@ void GameStats()
 
 void Game()
 {
+    tape[TapeLenght] = {0};                 // Setting the tape: 0 0 0 0 0 0 0 0 0 0
+    
     system("clear");
-    headCell = 2;
+    headCell = 2;                           // Considering that the head points at cell-2 initially
     step = 0;
     state = 0;
     //**************************** Initializing Transition table ********************************
